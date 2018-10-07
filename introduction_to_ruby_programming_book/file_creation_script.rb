@@ -1,3 +1,3 @@
 require "fileutils"
-x = 
-(1..x).each { |n| FileUtils.touch "#{n}-exercise.rb" }
+
+(1..ARGV[0].to_i).each { |n| FileUtils.touch "#{n}-exercise.rb" }
